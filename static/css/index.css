@@ -1,13 +1,13 @@
 
-em,i{
+em, i {
     font-style: normal;
 }
+
 /*nav*/
 h1 {
     font-family: Roboto;
     font-size: 40px;
 }
-
 
 .webCase_describe {
     font-family: Roboto;
@@ -32,12 +32,14 @@ h1 {
     -ms-transition: .4s linear;
     z-index: 10000;
 }
-.resumeBtn{
+
+.resumeBtn {
     font-size: 16px;
     cursor: pointer;
     position: relative;
     left: 60%;
 }
+
 .navNewStyle {
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12);
     -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12);
@@ -97,19 +99,21 @@ h1 {
 /*nav over*/
 
 /*resume*/
-.closeBtn{
+.closeBtn {
     position: absolute;
     top: 3%;
     right: 3%;
 }
-.closeIcon{
-  width: 30px;
+
+.closeIcon {
+    width: 30px;
     cursor: pointer;
 }
-#resume{
+
+#resume {
     width: 100%;
     background: rgba(0, 0, 0, 0.4);
-       position: fixed;
+    position: fixed;
     top: -1200px;
     z-index: 20000;
     transition: .5s linear;
@@ -118,33 +122,39 @@ h1 {
     -webkit-transition: .5s linear;
     -o-transition: .5s linear;
 }
-#resume .wrapper{
+
+#resume .wrapper {
     height: 100%;
-     width: 98%;
-     margin: 0 auto;
+    width: 98%;
+    margin: 0 auto;
     background: #f0efed;
- }
-.topIntro{
-       padding: 20px 0;
-      font-size: 18px;
-      text-align: center;
 }
-.contentIntro{
+
+.topIntro {
+    padding: 20px 0;
+    font-size: 18px;
+    text-align: center;
+}
+
+.contentIntro {
     width: 65%;
     margin: 0 auto;
 }
-.contentIntro p{
-  line-height: 22px;
+
+.contentIntro p {
+    line-height: 22px;
 }
-.p{
+
+.p {
     height: 70px;
     width: 1px;
-    background:gray ;
+    background: gray;
     margin-top: 8px;
     margin-left: 12px;
 
 }
-.di{
+
+.di {
     width: 80px;
     height: 80px;
     border-radius: 50%;
@@ -155,11 +165,12 @@ h1 {
     overflow: hidden;
     position: relative;
 }
-.add-mask-image{
+
+.add-mask-image {
     -webkit-mask-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA5JREFUeNpiYGBgAAgwAAAEAAGbA+oJAAAAAElFTkSuQmCC);
 }
 
-.inner{
+.inner {
     width: 40px;
     height: 40px;
     background: transparent;
@@ -167,48 +178,55 @@ h1 {
     float: left;
 }
 
-.rightIntro{
+.rightIntro {
     margin-left: 25px;
 }
-.inner span{
-    display:block;
-    width:100%;
-    height:100%;
-    background:#fff;
-    transition:all .3s linear;}
-.lt{
-    transform-origin:right bottom;
-    -o-transform-origin:right bottom;
-    -moz-transform-origin:right bottom;
-    -webkit-transform-origin:right bottom;
-    -ms-transform-origin:right bottom;
+
+.inner span {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    transition: all .3s linear;
 }
-.rt{
-    transform-origin:left bottom;
-    -o-transform-origin:left bottom;
-    -moz-transform-origin:left bottom;
-    -webkit-transform-origin:left bottom;
-    -ms-transform-origin:left bottom;
+
+.lt {
+    transform-origin: right bottom;
+    -o-transform-origin: right bottom;
+    -moz-transform-origin: right bottom;
+    -webkit-transform-origin: right bottom;
+    -ms-transform-origin: right bottom;
 }
-.lb{
-    transform-origin:right top;
-    -o-transform-origin:right top;
-    -moz-transform-origin:right top;
-    -webkit-transform-origin:right top;
-    -ms-transform-origin:right top;
+
+.rt {
+    transform-origin: left bottom;
+    -o-transform-origin: left bottom;
+    -moz-transform-origin: left bottom;
+    -webkit-transform-origin: left bottom;
+    -ms-transform-origin: left bottom;
 }
-.rb{
-    transform-origin:left top;
-    -o-transform-origin:left top;
-    -moz-transform-origin:left top;
-    -webkit-transform-origin:left top;
-    -ms-transform-origin:left top;
+
+.lb {
+    transform-origin: right top;
+    -o-transform-origin: right top;
+    -moz-transform-origin: right top;
+    -webkit-transform-origin: right top;
+    -ms-transform-origin: right top;
 }
-.skillLogo{
+
+.rb {
+    transform-origin: left top;
+    -o-transform-origin: left top;
+    -moz-transform-origin: left top;
+    -webkit-transform-origin: left top;
+    -ms-transform-origin: left top;
+}
+
+.skillLogo {
     display: inline-block;
     width: 60px;
     height: 60px;
-    background:#1cbbb4 ;
+    background: #1cbbb4;
     border-radius: 50%;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
@@ -217,26 +235,28 @@ h1 {
     position: absolute;
     left: 10px;
     top: 10px;
-  /*  border: 4px solid #cc1235;
-    box-sizing: border-box;*/
+    /*  border: 4px solid #cc1235;
+      box-sizing: border-box;*/
 }
-em i{
+
+em i {
 
 }
-.skills .row{
+
+.skills .row {
     margin-right: 0px;
     margin-left: 0px;
-   padding-left: 0;
+    padding-left: 0;
     padding-right: 0;
 
 }
-.selfIntro{
+
+.selfIntro {
     width: 96%;
     margin: 0 auto;
 }
 
-
-.skillItems{
+.skillItems {
     position: relative;
     top: 0;
     text-align: center;
@@ -249,10 +269,12 @@ em i{
     margin-bottom: 15px;
 
 }
-.skillItems:hover{
+
+.skillItems:hover {
     top: -15px;
 }
-.skillItemsName{
+
+.skillItemsName {
     font-weight: bolder;
     font-size: 16px;
     position: absolute;
@@ -260,36 +282,43 @@ em i{
     color: white;
     left: 36%;
 }
-.experience{
+
+.experience {
     margin-top: 15px;
     padding-left: 30px;
 }
-.experienceTitle{
+
+.experienceTitle {
     font-size: 18px;
 }
-.infoIntro{
+
+.infoIntro {
     padding-left: 30px;
     margin-top: 10px;
 }
-.infoIntro p{
+
+.infoIntro p {
     line-height: 28px;
 }
-.experienceProgress{
+
+.experienceProgress {
     width: 80%;
     height: 32px;
-   /* background:#1cbbb4 ;*/
+    /* background:#1cbbb4 ;*/
     border: 1px solid #cccccc;
     border-radius: 6px;
-    box-shadow:0 0 5px #ccc ;
+    box-shadow: 0 0 5px #ccc;
     overflow: hidden;
 }
-.experienceProgressTime{
-    width:0;
-   line-height: 32px;
-    background:#1cbbb4;
+
+.experienceProgressTime {
+    width: 0;
+    line-height: 32px;
+    background: #1cbbb4;
     text-align: center;
     color: white;
 }
+
 /*.leftIntro .rightIntro{
     text-align: center;
 }*/
@@ -342,7 +371,7 @@ em i{
     padding-top: 30px;
     box-sizing: border-box;
     /*  background: red;*/
-  /*  padding: 0;*/
+    /*  padding: 0;*/
     text-align: center;
 }
 
@@ -350,11 +379,11 @@ em i{
     margin-top: 30px;
 }
 
-.descriptionText{
+.descriptionText {
     margin: 20px 0;
 }
 
-.descriptionText h3{
+.descriptionText h3 {
     font-size: 20px;
 }
 
@@ -384,16 +413,53 @@ em i{
 #web .title {
     text-align: center;
 }
-.stw img{
-    width: 250px !important;
-    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12);
-}
-.stw-li{
+
+.stw-li {
     list-style: disc !important;
     line-height: 24px;
     margin-left: 1.5rem;
     color: #6d6d6d;
 }
+
+.stw img {
+    width: 250px !important;
+    /*box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12);*/
+}
+
+.phone {
+    display: inline-block;
+    border-bottom-width: 45px;
+    border-top-width: 35px;
+    border-radius: 20px;
+    border-color: #f3f3f3;
+    border-style: solid;
+    position: relative;
+    margin: 5px;
+}
+
+.phone .phone-gap {
+    position: absolute;
+    top: -19px;
+    left: calc(50% - 40px);
+    display: inline-block;
+    width: 80px;
+    height: 6px;
+    border: 1px solid rgba(0, 0, 0, .12);
+    border-radius: 5px;
+}
+
+.phone .phone-circle {
+    display: inline-block;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: #ffffff;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, .12);
+    left: calc(50% - 15px);
+    bottom: -36px
+}
+
 .webCase_describe {
     font-size: 10px;
     display: inline-block;
@@ -408,7 +474,7 @@ em i{
 }
 
 .webCaseIntro {
-    padding: 20px 0;
+    padding: 20px 10px;
     box-sizing: border-box;
 }
 
@@ -448,19 +514,22 @@ em i{
 }
 
 .appCase {
- /*background: green;*/
+    /*background: green;*/
     /*position: relative;*/
 }
-.appCaseImg01{
+
+.appCaseImg01 {
     position: relative;
     left: 10px;
     z-index: 1;
 }
-.appCaseImg02{
+
+.appCaseImg02 {
     position: relative;
     left: -50px;
     z-index: 2;
 }
+
 /*about*/
 #about {
     background: #1cbbb4;
@@ -480,55 +549,60 @@ em i{
     border-bottom: 1px solid #ffffff;
 
 }
-.xixi{
+
+.xixi {
     border-radius: 50%;
     width: 220px;
     height: 220px;
-   background:url("../images/xixi.jpg") no-repeat;
+    background: url("../images/xixi.jpg") no-repeat;
     background-size: 100%;
     margin: 30px auto;
 
-
-
 }
-.xixi img{
+
+.xixi img {
     width: auto;
-    height:180px;
+    height: 180px;
     border-radius: 50%;
     position: relative;
     top: -160px;
-    transition:all 1s ease;
-    -webkit-transition:all 1s ease;
-    -moz-transition:all 1s ease;
-    -ms-transition:all 1s ease;
-    -webkit-transition:all 1s ease;
+    transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -webkit-transition: all 1s ease;
     cursor: pointer;
 }
-.xixi:hover img{
-    transform:rotateY(180deg);
-    -webkit-transform:rotateY(180deg);
+
+.xixi:hover img {
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
 
 }
-.xixi:hover .shadow{
-    box-shadow:0 0 0 0 rgba(255,255,255,0.5);
-    -webkit-box-shadow:0 0 0 0 rgba(255,255,255,0.3);
-   }
-.shadow{
-    width:180px;
-    height:180px;
-    border-radius:50%;
+
+.xixi:hover .shadow {
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.5);
+    -webkit-box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.3);
+}
+
+.shadow {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
     position: relative;
     left: 20px;
     top: 20px;
-    box-shadow:0 0 0 20px rgba(255,255,255,0.3);
-    -webkit-box-shadow:0 0 0 20px rgba(255,255,255,0.3);
-    transition:all .5s ease;
-    -webkit-transition:all .5s ease;
-    -moz-transition:all .5s ease;
-    -ms-transition:all .5s ease;
-    -webkit-transition:all .5s ease;}
-.selfIntro h6{
-   font-size: 16px;
+    box-shadow: 0 0 0 20px rgba(255, 255, 255, 0.3);
+    -webkit-box-shadow: 0 0 0 20px rgba(255, 255, 255, 0.3);
+    transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+}
+
+.selfIntro h6 {
+    font-size: 16px;
     font-weight: normal;
     width: 80%;
     margin: 0 auto;
@@ -536,9 +610,11 @@ em i{
     text-indent: 2rem;
 
 }
+
 .selfIntro ul {
     margin-left: 10%;
 }
+
 /*contact*/
 
 #contact {
@@ -615,11 +691,12 @@ em i{
     margin: 0 20px;
 
 }
-.code{
+
+.code {
     width: 100px;
     position: absolute;
     opacity: 0;
-    filter:alpha(opacity=0);
+    filter: alpha(opacity=0);
     transition: .4s linear;
     -o-transition: .4s linear;
     -webkit-transition: .4s linear;
@@ -627,11 +704,13 @@ em i{
     -ms-transition: .4s linear;
 
 }
-.code01{
+
+.code01 {
     left: -100px;
-    top:80px;
+    top: 80px;
 }
-.code02{
+
+.code02 {
     top: 80px;
     left: 30px;
     padding: 12px 6px;
@@ -639,12 +718,12 @@ em i{
     box-sizing: border-box;
 }
 
-.contactWay:hover .code{
+.contactWay:hover .code {
     opacity: 1;
-    filter:alpha(opacity=100);
-
+    filter: alpha(opacity=100);
 
 }
+
 .contactWay_header {
     width: 70%;
     transition: 0.4s linear;
@@ -655,7 +734,7 @@ em i{
 }
 
 .contactWay:hover .contactWay_header {
-   /* width: 100%;*/
+    /* width: 100%;*/
 
 }
 
@@ -680,7 +759,7 @@ em i{
     }
 
     #home .selfInfo p {
-      /*  white-space: normal;*/
+        /*  white-space: normal;*/
         text-align: center;
         font-size: 16px;
         height: 35px;
@@ -689,45 +768,55 @@ em i{
     .servicesItem {
         margin-top: 90px;
     }
-    .code01{
+
+    .code01 {
         left: -50px;
-        top:80px;
+        top: 80px;
     }
-    .contentIntro{
+
+    .contentIntro {
         width: 100%;
         margin: 0 auto;
     }
-    .skillItems{
+
+    .skillItems {
         text-align: center;
         margin-bottom: 15px;
     }
 
-    .contentIntro{
+    .contentIntro {
         font-size: 12px;
     }
-    .webCaseIntro p{
+
+    .webCaseIntro p {
         font-size: 12px;
         padding: 0 2%;
     }
-    .webCaseIntro h3{
+
+    .webCaseIntro h3 {
         padding: 0 2%;
     }
-    .leftIntro{
+
+    .leftIntro {
         padding-left: 12%;
     }
-    .selfIntro h6{
+
+    .selfIntro h6 {
         font-size: 14px;
         width: 100%;
         line-height: 28px;
 
     }
+
     #contact .content h6 {
         font-size: 14px;
 
     }
+
     .email {
 
-        font-size: 20px;}
+        font-size: 20px;
+    }
 
 }
 
@@ -744,7 +833,7 @@ em i{
         width: 90%;
     }
 
-    .di{
+    .di {
         width: 100px;
         height: 100px;
         border-radius: 50%;
@@ -752,13 +841,12 @@ em i{
         position: relative;
     }
 
-    .inner{
+    .inner {
         width: 50px;
         height: 50px;
     }
 
-
-    .skillLogo{
+    .skillLogo {
         width: 80px;
         height: 80px;
         left: 10px;
@@ -766,33 +854,40 @@ em i{
         /*  border: 4px solid #cc1235;
           box-sizing: border-box;*/
     }
-    .skillItemsName{
+
+    .skillItemsName {
         font-size: 20px;
     }
-    .experience{
+
+    .experience {
         margin-top: 30px;
     }
-    .resumeBtn{
+
+    .resumeBtn {
         left: 42%;
     }
-    .contentIntro{
+
+    .contentIntro {
         width: 96%;
         margin: 0 auto;
     }
-    .leftIntro{
+
+    .leftIntro {
         padding-left: 22%;
     }
-    .p{
+
+    .p {
         margin-left: 40px;
     }
 
 }
 
 @media (min-width: 992px) {
-    .resumeBtn{
+    .resumeBtn {
         position: static;
-        left:0;
+        left: 0;
     }
+
     .container {
         width: 85%;
     }
@@ -805,7 +900,6 @@ em i{
         background: transparent;
 
     }*/
-
     #nav .navBar {
         display: inline-block;
         height: 60px;
@@ -837,8 +931,6 @@ em i{
         font-size: 36px;
         height: 50px;
     }
-
-
 
     #app .webCaseIntro {
         padding: 0 0 0 120px;
@@ -885,7 +977,8 @@ em i{
         line-height: 20px;
 
     }
-    #resume .wrapper{
+
+    #resume .wrapper {
         width: 75%;
         max-width: 700px;
 
@@ -899,6 +992,11 @@ em i{
         max-width: 1280px;
     }
 
+    .phone2 {
+        top: 30px;
+        left: -60px;
+    }
+
     #services .container .content {
         box-sizing: border-box;
         padding: 30px 50px 0;
@@ -908,7 +1006,8 @@ em i{
     .webCase {
         padding: 0px 50px;
     }
-    #resume .wrapper{
+
+    #resume .wrapper {
         width: 55%;
         max-width: 700px;
 
