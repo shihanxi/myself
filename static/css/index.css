@@ -2,7 +2,6 @@
 em, i {
     font-style: normal;
 }
-/*nav*/
 h1 {
     font-family: Roboto;
     font-size: 40px;
@@ -29,7 +28,6 @@ h1 {
     -ms-transition: .4s linear;
     z-index: 10000;
 }
-
 .resumeBtn {
     font-size: 16px;
     cursor: pointer;
