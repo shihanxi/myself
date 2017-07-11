@@ -3,7 +3,8 @@
 body,div,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,table,img,dl,dl,dt,dd,input,td{
 	margin:0;
 	padding:0;
-	outline:none;}
+	outline:none;
+}
 @font-face {
 	src: url(../fonts/simhei.ttf);
 	font-family: SimHei;
