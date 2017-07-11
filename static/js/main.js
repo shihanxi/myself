@@ -17,7 +17,6 @@ $(function () {
             $('.nav_li').removeClass('nav_li_bg');
             $('.nav_li').eq(1).addClass('nav_li_bg');
         }
-
         if ($('#web').offset().top <= tp60) {
             $('.nav_li').removeClass('nav_li_bg');
             $('.nav_li').eq(2).addClass('nav_li_bg');
